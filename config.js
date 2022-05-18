@@ -611,7 +611,7 @@ Like NO DROP
 - 500 like = 22k
 - 1000 like = 40k`,
 }
-global.thumb = fs.readFileSync('./lib/hisoka.jpg')
+global.thumb = fs.readFileSync('./IMG_20220418_071220_289.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
